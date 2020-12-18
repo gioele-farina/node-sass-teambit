@@ -1,14 +1,51 @@
 footer {
   @include debug-border;
   display: flex;
+  padding: 60px 0;
 
   .footer-left {
     @include debug-border;
-    min-height: 200px;
+    width: 300px;
+    flex-shrink: 0;
+
+    p {
+      font-weight: bold;
+      a {
+        color: $button-color;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
   }
 
   .footer-right {
     @include debug-border;
-    min-height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+
+    ul {
+      list-style: none;
+      width: calc(100% / 5);
+      line-height: 35px;
+
+      & li:first-child {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      li a {
+        text-decoration: none;
+        color: $fonts-color;
+
+        &:hover {
+          @include link-hover;
+        }
+      }
+    }
   }
 }

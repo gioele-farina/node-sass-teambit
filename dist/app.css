@@ -287,15 +287,14 @@ header .jumbotron .jumbotron-right img {
   border: 1px solid #bdb5af;
   border-radius: 6px;
   background-color: white;
-  padding: 40px;
-  padding-bottom: 20px;
+  padding: 20px 40px;
   margin-bottom: 40px;
   text-align: left;
   position: relative;
 }
 
 .section3 .quotes .quote-text {
-  margin: 35px 0 15px 0;
+  margin-bottom: 15px;
 }
 
 .section3 .quotes .virgoletta-quote {
@@ -333,13 +332,53 @@ header .jumbotron .jumbotron-right img {
 
 footer {
   display: flex;
+  padding: 60px 0;
 }
 
 footer .footer-left {
-  min-height: 200px;
+  width: 300px;
+  flex-shrink: 0;
+}
+
+footer .footer-left p {
+  font-weight: bold;
+}
+
+footer .footer-left p a {
+  color: #30488f;
+  text-decoration: none;
+}
+
+footer .footer-left p a:hover {
+  text-decoration: underline;
 }
 
 footer .footer-right {
-  min-height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+footer .footer-right ul {
+  list-style: none;
+  width: calc(100% / 5);
+  line-height: 35px;
+}
+
+footer .footer-right ul li:first-child {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+footer .footer-right ul li a {
+  text-decoration: none;
+  color: #58402c;
+}
+
+footer .footer-right ul li a:hover {
+  color: #233569;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+  cursor: pointer;
 }
 
