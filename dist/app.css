@@ -382,3 +382,21 @@ footer .footer-right ul li a:hover {
   cursor: pointer;
 }
 
+.help {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #30488f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.help i {
+  font-size: 30px;
+  color: white;
+}
+

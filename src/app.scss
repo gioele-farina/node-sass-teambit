@@ -19,3 +19,19 @@ body {
 @import "_section2";
 @import "_section3";
 @import "_footer";
+
+.help {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: $button-color;
+  @include flex-centratura;
+
+  i {
+    font-size: 30px;
+    color: white;
+  }
+}
