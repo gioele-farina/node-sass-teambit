@@ -8,8 +8,86 @@
   background-color: $button-color-hover;
   transition-duration: .2s;
   transition-timing-function: ease-in;
+  cursor: pointer;
+}
+
+@mixin link-hover {
+  color: $button-color-hover;
+  transition-duration: .2s;
+  transition-timing-function: ease-in;
+  cursor: pointer;
 }
 
 @mixin debug-border {
-  border: 1px solid black;
+  // border: 1px solid black;
+}
+
+
+.container-fluid {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.button-trasparent {
+  display: flex;
+  align-items: center;
+  padding: 5px 8px;
+  background-color: inherit;
+  border: 1px solid $button-color;
+  border-radius: 7px;
+  text-decoration: none;
+  color: $button-color;
+  font-weight: bold;
+
+  i {
+    padding: 5px;
+  }
+
+  &:hover {
+    @include button-hover;
+    color: white;
+  }
+}
+
+
+.sign-up {
+
+  span {
+    display: inline-block;
+    font-size: 0.9rem;
+    padding: 0 15px;
+    filter: opacity(0.5);
+    font-weight: normal;
+  }
+
+  p {
+    font-size: 0.9rem;
+
+    i {
+      font-size: 0.7rem;
+    }
+
+    &:hover {
+      @include link-hover;
+    }
+  }
+}
+
+.button-colored {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: $button-color;
+  border-radius: 7px;
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+
+  i {
+    padding: 5px 8px 5px 0px;
+  }
+
+  &:hover {
+    @include button-hover;
+  }
 }

@@ -1,36 +1,75 @@
 header {
   @include debug-border;
+  font-size: 1rem;
 
   nav {
     @include debug-border;
     display: flex;
     justify-content: space-between;
     height: 75px;
+    border-bottom: 1px solid $fonts-color;
+    font-weight: bold;
 
     .logo {
+      display: flex;
+      align-items: center;
       @include debug-border;
       flex-shrink: 0;
+
+      img {
+        max-height: 80%;
+      }
     }
 
     .menu {
       @include debug-border;
       flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      ul {
+        list-style: none;
+        li {
+          display: inline-block;
+          margin-right: 30px;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+
     }
   }
 
   .jumbotron {
     @include debug-border;
-    min-height: 600px;
+    padding: 100px 0;
     display: flex;
 
     .jumbotron-left {
       @include debug-border;
       width: 50%;
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      h4 {
+        font-size: 1.5rem;
+        font-weight: normal;
+      }
     }
 
     .jumbotron-right {
       @include debug-border;
       width: 50%;
+
+      img {
+        width: 100%;
+        height: auto;;
+      }
     }
 
   }

@@ -1,0 +1,14 @@
+footer {
+  @include debug-border;
+  display: flex;
+
+  .footer-left {
+    @include debug-border;
+    min-height: 200px;
+  }
+
+  .footer-right {
+    @include debug-border;
+    min-height: 200px;
+  }
+}
