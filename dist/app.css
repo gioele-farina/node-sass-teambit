@@ -1,6 +1,68 @@
+header {
+  border: 1px solid black;
+}
+
+header nav {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+}
+
+header nav .logo {
+  border: 1px solid black;
+  flex-shrink: 0;
+}
+
+header nav .menu {
+  border: 1px solid black;
+  flex-grow: 1;
+}
+
+header .jumbotron {
+  border: 1px solid black;
+  min-height: 600px;
+  display: flex;
+}
+
+header .jumbotron .jumbotron-left {
+  border: 1px solid black;
+  width: 50%;
+}
+
+header .jumbotron .jumbotron-right {
+  border: 1px solid black;
+  width: 50%;
+}
+
+.section1 {
+  border: 1px solid black;
+}
+
+.section1 .tris-img-container {
+  border: 1px solid black;
+  display: flex;
+}
+
+.section1 .tris-img-container > div {
+  border: 1px solid black;
+  width: calc(100% / 3);
+  min-height: 100px;
+}
+
+.section1 .single-img-container {
+  border: 1px solid black;
+  min-height: 100px;
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container-fluid {
+  max-width: 1100px;
+  margin: auto;
 }
 

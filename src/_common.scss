@@ -3,3 +3,13 @@
   justify-content: center;
   align-items: center;
 }
+
+@mixin button-hover {
+  background-color: $button-color-hover;
+  transition-duration: .2s;
+  transition-timing-function: ease-in;
+}
+
+@mixin debug-border {
+  border: 1px solid black;
+}

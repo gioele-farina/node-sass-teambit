@@ -1,8 +1,18 @@
-@import "_variables.scss";
-@import "_common.scss";
+@import "_variables";
+@import "_common";
+@import "_header";
+@import "_section1";
+@import "_section2";
+@import "_section3";
+@import "_footer";
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container-fluid {
+  max-width: 1100px;
+  margin: auto;
 }

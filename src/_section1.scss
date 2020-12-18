@@ -1,0 +1,20 @@
+.section1 {
+  @include debug-border;
+
+  .tris-img-container {
+    @include debug-border;
+    display: flex;
+
+    & > div {
+      @include debug-border;
+      width: calc(100% / 3);
+      min-height: 100px;
+    }
+  }
+
+  .single-img-container {
+    @include debug-border;
+    min-height: 100px;
+  }
+
+}

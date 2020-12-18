@@ -1,0 +1,38 @@
+header {
+  @include debug-border;
+
+  nav {
+    @include debug-border;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+
+    .logo {
+      @include debug-border;
+      flex-shrink: 0;
+    }
+
+    .menu {
+      @include debug-border;
+      flex-grow: 1;
+    }
+  }
+
+  .jumbotron {
+    @include debug-border;
+    min-height: 600px;
+    display: flex;
+
+    .jumbotron-left {
+      @include debug-border;
+      width: 50%;
+    }
+
+    .jumbotron-right {
+      @include debug-border;
+      width: 50%;
+    }
+
+  }
+
+}
