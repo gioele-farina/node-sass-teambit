@@ -1,10 +1,6 @@
 @import "_variables";
 @import "_common";
-@import "_header";
-@import "_section1";
-@import "_section2";
-@import "_section3";
-@import "_footer";
+
 
 html {
   font-size: 16px;
@@ -17,3 +13,9 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+@import "_header";
+@import "_section1";
+@import "_section2";
+@import "_section3";
+@import "_footer";

@@ -1,12 +1,62 @@
 .section3 {
+  padding: 60px 0;
+  background-color: $section-color-alternative;
+  text-align: center;
+
+  h1 {
+    font-size: 3rem;
+  }
 
   .quotes {
     @include debug-border;
+    margin: auto;
     min-height: 150px;
+    max-width: 628px;
+    border: 1px solid $section-border-bottom;
+    border-radius: 6px;
+    background-color: white;
+    padding: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+    position: relative;
+
+    .quote-text {
+      margin: 35px 0 15px 0;
+    }
+
+    .virgoletta-quote {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(0%, -50%);
+      font-size: 40px;
+      color: $button-color-hover;
+    }
+
+    .quote-authors {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 38px;
+        height: 38px;
+        margin-right: 10px;
+      }
+
+      p {
+        margin: 0;
+        font-size: 0.8rem;
+      }
+
+      & p:first-child {
+        color: $button-color;
+      }
+    }
   }
 
   .sign-in {
     @include debug-border;
-    min-height: 50px;  
+    min-height: 50px;
   }
 }

@@ -72,6 +72,18 @@
   cursor: pointer;
 }
 
+html {
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #58402c;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
   font-size: 1rem;
   margin-top: 65px;
@@ -194,7 +206,7 @@ header .jumbotron .jumbotron-right img {
 }
 
 .section2 {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 .section2 .section2-content {
@@ -258,8 +270,61 @@ header .jumbotron .jumbotron-right img {
   height: auto;
 }
 
+.section3 {
+  padding: 60px 0;
+  background-color: #ffe7d2;
+  text-align: center;
+}
+
+.section3 h1 {
+  font-size: 3rem;
+}
+
 .section3 .quotes {
+  margin: auto;
   min-height: 150px;
+  max-width: 628px;
+  border: 1px solid #bdb5af;
+  border-radius: 6px;
+  background-color: white;
+  padding: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  text-align: left;
+  position: relative;
+}
+
+.section3 .quotes .quote-text {
+  margin: 35px 0 15px 0;
+}
+
+.section3 .quotes .virgoletta-quote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(0%, -50%);
+  font-size: 40px;
+  color: #233569;
+}
+
+.section3 .quotes .quote-authors {
+  display: flex;
+  align-items: center;
+}
+
+.section3 .quotes .quote-authors img {
+  width: 38px;
+  height: 38px;
+  margin-right: 10px;
+}
+
+.section3 .quotes .quote-authors p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.section3 .quotes .quote-authors p:first-child {
+  color: #30488f;
 }
 
 .section3 .sign-in {
@@ -276,17 +341,5 @@ footer .footer-left {
 
 footer .footer-right {
   min-height: 200px;
-}
-
-html {
-  font-size: 16px;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #58402c;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
