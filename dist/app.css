@@ -78,6 +78,16 @@ header .jumbotron .jumbotron-right {
   min-height: 150px;
 }
 
+.section3 .quotes {
+  border: 1px solid black;
+  min-height: 150px;
+}
+
+.section3 .sign-in {
+  border: 1px solid black;
+  min-height: 50px;
+}
+
 body {
   margin: 0;
   padding: 0;
