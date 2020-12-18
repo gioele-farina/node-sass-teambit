@@ -1,0 +1,22 @@
+.section2 {
+  @include debug-border;
+
+  .section2-content {
+    @include debug-border;
+    display: flex;
+
+    .content-left {
+      @include debug-border;
+      width: 50%;
+      flex-shrink: 0;
+      min-height: 150px;
+    }
+
+    .content-right {
+      @include debug-border;
+      width: 50%;
+      flex-shrink: 0;
+      min-height: 150px;
+    }
+  }
+}

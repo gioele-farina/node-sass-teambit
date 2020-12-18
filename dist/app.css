@@ -55,6 +55,29 @@ header .jumbotron .jumbotron-right {
   min-height: 100px;
 }
 
+.section2 {
+  border: 1px solid black;
+}
+
+.section2 .section2-content {
+  border: 1px solid black;
+  display: flex;
+}
+
+.section2 .section2-content .content-left {
+  border: 1px solid black;
+  width: 50%;
+  flex-shrink: 0;
+  min-height: 150px;
+}
+
+.section2 .section2-content .content-right {
+  border: 1px solid black;
+  width: 50%;
+  flex-shrink: 0;
+  min-height: 150px;
+}
+
 body {
   margin: 0;
   padding: 0;
