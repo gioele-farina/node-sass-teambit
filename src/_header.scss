@@ -1,13 +1,14 @@
 header {
   @include debug-border;
   font-size: 1rem;
+  margin-top: 65px;
 
   nav {
     @include debug-border;
     display: flex;
     justify-content: space-between;
     height: 75px;
-    border-bottom: 1px solid $fonts-color;
+    border-bottom: 1px solid $section-border-bottom;
     font-weight: bold;
 
     .logo {

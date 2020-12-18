@@ -1,5 +1,28 @@
 .section1 {
   @include debug-border;
+  background-color: $section-color-alternative;
+  text-align: center;
+
+  .sub-section {
+    padding: 80px;
+  }
+
+  .sub-section.sub1 {
+    border-bottom: 1px solid $section-border-bottom;
+  }
+
+  .sub-section.sub2 {
+    h1:last-child {
+      margin-top: 80px;
+    }
+  }
+
+
+  h1 {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 15px,
+  }
 
   .tris-img-container {
     @include debug-border;
@@ -8,13 +31,31 @@
     & > div {
       @include debug-border;
       width: calc(100% / 3);
+      padding: 25px;
       min-height: 100px;
     }
+
+    div {
+      img {
+        height: 105px;
+        width: auto;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+    }
+
   }
 
   .single-img-container {
     @include debug-border;
     min-height: 100px;
+    margin-top: 30px;
+    
+    img {
+      width: 280px;
+    }
   }
 
 }
