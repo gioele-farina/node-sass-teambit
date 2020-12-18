@@ -8,10 +8,10 @@
   align-items: center;
   padding: 5px 8px;
   background-color: inherit;
-  border: 1px solid #30488f;
+  border: 1px solid #0E14EE;
   border-radius: 7px;
   text-decoration: none;
-  color: #30488f;
+  color: #0E14EE;
   font-weight: bold;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .button-trasparent:hover {
-  background-color: #233569;
+  background-color: #7F14D4;
   transition-duration: 0.2s;
   transition-timing-function: ease-in;
   cursor: pointer;
@@ -44,7 +44,7 @@
 }
 
 .sign-up p:hover {
-  color: #233569;
+  color: #7F14D4;
   transition-duration: 0.2s;
   transition-timing-function: ease-in;
   cursor: pointer;
@@ -54,7 +54,7 @@
   display: inline-flex;
   align-items: center;
   padding: 5px 20px;
-  background-color: #30488f;
+  background-color: #0E14EE;
   border-radius: 7px;
   text-decoration: none;
   color: white;
@@ -66,7 +66,7 @@
 }
 
 .button-colored:hover {
-  background-color: #233569;
+  background-color: #7F14D4;
   transition-duration: 0.2s;
   transition-timing-function: ease-in;
   cursor: pointer;
@@ -75,7 +75,7 @@
 html {
   font-size: 16px;
   font-family: "Source Sans Pro", sans-serif;
-  color: #58402c;
+  color: #4466D4;
 }
 
 body {
@@ -155,7 +155,7 @@ header .jumbotron .jumbotron-right img {
 }
 
 .section1 {
-  background-color: #ffe7d2;
+  background-color: #040F0F;
   text-align: center;
 }
 
@@ -254,7 +254,7 @@ header .jumbotron .jumbotron-right img {
 }
 
 .section2 .section2-content .text h4 a {
-  color: #30488f;
+  color: #0E14EE;
 }
 
 .section2 .section2-content .text h4 a i {
@@ -272,7 +272,7 @@ header .jumbotron .jumbotron-right img {
 
 .section3 {
   padding: 60px 0;
-  background-color: #ffe7d2;
+  background-color: #040F0F;
   text-align: center;
 }
 
@@ -303,7 +303,7 @@ header .jumbotron .jumbotron-right img {
   left: 0;
   transform: translate(0%, -50%);
   font-size: 40px;
-  color: #233569;
+  color: #7F14D4;
 }
 
 .section3 .quotes .quote-authors {
@@ -323,7 +323,7 @@ header .jumbotron .jumbotron-right img {
 }
 
 .section3 .quotes .quote-authors p:first-child {
-  color: #30488f;
+  color: #0E14EE;
 }
 
 .section3 .sign-in {
@@ -345,7 +345,7 @@ footer .footer-left p {
 }
 
 footer .footer-left p a {
-  color: #30488f;
+  color: #0E14EE;
   text-decoration: none;
 }
 
@@ -372,11 +372,11 @@ footer .footer-right ul li:first-child {
 
 footer .footer-right ul li a {
   text-decoration: none;
-  color: #58402c;
+  color: #4466D4;
 }
 
 footer .footer-right ul li a:hover {
-  color: #233569;
+  color: #7F14D4;
   transition-duration: 0.2s;
   transition-timing-function: ease-in;
   cursor: pointer;
@@ -389,7 +389,7 @@ footer .footer-right ul li a:hover {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: #30488f;
+  background-color: #0E14EE;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -398,5 +398,12 @@ footer .footer-right ul li a:hover {
 .help i {
   font-size: 30px;
   color: white;
+}
+
+.help:hover {
+  background-color: #7F14D4;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+  cursor: pointer;
 }
 

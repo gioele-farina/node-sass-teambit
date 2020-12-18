@@ -34,4 +34,8 @@ body {
     font-size: 30px;
     color: white;
   }
+
+  &:hover {
+    @include button-hover;
+  }
 }
